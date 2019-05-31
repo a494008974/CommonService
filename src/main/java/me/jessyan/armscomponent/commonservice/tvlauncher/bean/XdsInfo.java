@@ -7,7 +7,7 @@ import me.jessyan.armscomponent.commonservice.base.BaseInfo;
  * Created by zhou on 2018/11/5.
  */
 
-public class TVLauncherInfo  implements BaseInfo {
+public class XdsInfo implements BaseInfo {
     private String name;
     @Override
     public String getName() {
@@ -19,7 +19,7 @@ public class TVLauncherInfo  implements BaseInfo {
         return RouterHub.TVLAUNCHER_HOMEACTIVITY;
     }
 
-    public TVLauncherInfo(String name) {
+    public XdsInfo(String name) {
         this.name = name;
     }
 
